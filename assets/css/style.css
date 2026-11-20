@@ -76,3 +76,86 @@ body {
 .footer .link a:hover {
   color: #0d6efd;
 }
+
+/* ABOUT */
+/* Gambar About */
+.about-img {
+  border-radius: 28px;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+/* Badge Pill ("About RentDrive") */
+.about-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #e6effa;
+  color: #31316a;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 50px;
+}
+
+.about-badge .badge-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #2563eb;
+  border-radius: 50%;
+}
+
+.about-badge .badge-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #2563eb;
+  border-radius: 50%;
+}
+
+/* Lingkaran Ikon di Kolom Kanan */
+.feature-icon {
+  width: 54px;
+  height: 54px;
+  background-color: #e6effa;
+  color: #1d4ed8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+/* Garis Pemisah Vertikal */
+@media (min-width: 992px) {
+  .border-start-lg {
+    border-left: 1px solid #7a9cc8 !important;
+  }
+}
+
+/* Dekorasi Bentuk Biru Abstrak di Latar Belakang */
+.bg-shape-left {
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 220px;
+  height: 200px;
+  background: linear-gradient(135deg, #93c5fd 0%, #3b82f6 100%);
+  border-radius: 50%;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.bg-shape-right {
+  position: absolute;
+  right: -50px;
+  bottom: -40px;
+  width: 220px;
+  height: 160px;
+  background: linear-gradient(135deg, #60a5fa 0%, #2563eb 100%);
+  border-radius: 50% 0 0 0;
+  transform: rotate(-25deg);
+  opacity: 0.8;
+  z-index: 1;
+}
