@@ -76,6 +76,151 @@ body {
 .footer .link a:hover {
   color: #0d6efd;
 }
+
+
+/* HOME KHANSA */
+.navbar.bg-nav {
+  background-color: #080B12 !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #FFFFFF !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #1677FF !important;
+}
+
+
+.home-hero {
+  position: relative;
+  isolation: isolate;
+  background: transparent !important;
+  color: #FFFFFF;
+  min-height: calc(100vh - 135px);
+  box-sizing: border-box;
+}
+
+.home-hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background-color: #080B12;
+}
+
+.home-hero h1 {
+  color: #1677FF !important;
+}
+
+.home-hero p {
+  color: #D1D5DB;
+}
+
+.home-hero .btn-primary {
+  background-color: #1677FF;
+  border-color: #1677FF;
+}
+
+
+.navbar .btn-social-media {
+  color: #FFFFFF;
+  background-color: #111827;
+  border-color: #1677FF;
+  transition: all 0.3s ease;
+}
+
+.navbar .btn-social-media:hover {
+  color: #FFFFFF;
+  background-color: #1677FF;
+  border-color: #1677FF;
+  transform: translateY(-3px);
+}
+
+
+.navbar {
+  background-color: #080B12 !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #FFFFFF !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #1677FF !important;
+}
+
+
+.home-hero .carousel-control-prev-icon,
+.home-hero .carousel-control-next-icon {
+  filter: invert(36%) sepia(98%) saturate(3000%)
+          hue-rotate(207deg) brightness(100%) contrast(105%);
+  opacity: 1;
+}
+
+.home-hero .carousel-control-prev:hover,
+.home-hero .carousel-control-next:hover {
+  opacity: 0.7;
+}
+
+
+.home-hero .carousel-item img {
+  animation: bmwSmoothZoom 6s ease-in-out infinite alternate;
+}
+
+@keyframes bmwSmoothZoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.07);
+  }
+}
+
+
+.home-hero .carousel-item {
+    position: relative;
+    isolation: isolate;
+}
+
+.home-hero .carousel-item img {
+    position: relative;
+    z-index: 2;
+    filter: none;
+}
+
+
+.home-hero .carousel-item {
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.home-hero .carousel-item img {
+    border-radius: 0 !important;
+    animation: bmwSmoothZoom 6s ease-in-out infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes bmwSmoothZoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.08);
+    }
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .footer .link a:hover {
   color: #0d6efd;
 }

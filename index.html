@@ -9,7 +9,7 @@
     <meta name="author" content="agung tri utomo">
 
     <!-- Title -->
-    <title>Digital Creative</title>
+    <title>PREMIUM CAR RENTAL</title>
 
     <!-- Favicon icon -->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -25,18 +25,20 @@
 
     <!-- Custom Style -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body id="home" class="d-flex flex-column h-100">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light py-4 bg-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark py-4 bg-dark">
         <div class="container">
             <!-- Brand -->
-            <a class="navbar-brand" href="https://pustakakoding.com">
-                <img src="assets/img/logo.svg" alt="Digital Creative" width="42" height="42" class="d-inline-block mt--2 me-2">
-                <span class="text-body fs-4 fw-bolder">Digital Creative</span>
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo2.png" alt="Drive Cars" style="width: 230px; height: auto;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,19 +47,16 @@
                 <!-- Menu -->
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link mx-3" href="#home">Home</a>
+                        <a class="nav-link mx-3" href="#home" style="color: #ffffff; font-weight: bold;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3" href="#services">Services</a>
+                        <a class="nav-link mx-3" href="#about" style="color: #ffffff; font-weight: bold;">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3" href="#about">About</a>
+                        <a class="nav-link mx-3" href="#popular-cars" style="color: #ffffff; font-weight: bold;">Popular Cars</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-3" href="#contact">Contact</a>
+                        <a class="nav-link mx-3" href="#contact-us" style="color: #ffffff; font-weight: bold;">Contact Us</a>
                     </li>
                 </ul>
                 <!-- Social Media -->
@@ -82,20 +81,89 @@
     <!-- Main Content -->
     <main class="flex-shrink-0">
         <!-- Heroes -->
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5">
+        <div class="container col-xxl-8 px-4 py-5 home-hero">
+            <div class="row align-items-center g-5">
+
+                <!--Text-->
                 <div class="col-lg-5">
-                    <img src="assets/img/heroes.svg" class="d-block mx-lg-auto img-fluid" alt="Digital Creative" loading="lazy">
-                </div>
-                <div class="col-lg-7">
-                    <h1 class="fw-bold lh-2 mb-4">Creative Digital Agency For Your Business Solutions</h1>
-                    <p class="lead mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <h1 class="display-5 fw-bold lh-1 mb-3 text-primary">
+                        Experience Luxury, Drive BMW.
+                    </h1>
+
+                    <p class="lead">
+                        More than just a journey, it is an experience. Drive with character, embrace every moment, and let luxury speak through BMW.
+                    </p>
+
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="https://api.whatsapp.com/send?phone=6281377783334&text=Assalamualaikum.." class="btn btn-primary rounded-pill px-4 py-2"><i class="bi bi-whatsapp me-2"></i> Let's talk with us</a>
+                        <a href="#services" class="btn btn-primary btn-lg px-4">
+                            Let's Hit the Road
+                        </a>
+                    </div>
+                </div>
+
+                <!--BMW Carousel-->
+                <div class="col-lg-7">
+                    <div id="bmwCarousel" class="carousel slide"
+                         data-bs-ride="carousel"
+                         data-bs-interval="4000">
+                        
+                         <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="assets/img/bmw1.jpg"
+                                     class="d-block w-100 rounded"
+                                     alt="BMW Z4 Final Edition"
+                                     style="height: 380px; object-fit: cover;">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="assets/img/bmw2.jpg"
+                                     class="d-block w-100 rounded"
+                                     alt="BMW M2 Competition F87"
+                                     style="height: 380px; object-fit: cover;">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="assets/img/bmw3.jpg"
+                                     class="d-block w-100 rounded"
+                                     alt="BMW i4"
+                                     style="height: 380px; object-fit: cover;">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="assets/img/bmw4.jpg"
+                                     class="d-block w-100 rounded"
+                                     alt="BMW 330i Touring M Sport G21 LCI"
+                                     style="height: 380px; object-fit: cover;">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="assets/img/bmw5.jpg"
+                                     class="d-block w-100 rounded"
+                                     alt="BMW M4 CS"
+                                     style="height: 380px; object-fit: cover;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev"
+                                 type="button"
+                                 data-bs-target="#bmwCarousel"
+                                 data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next"
+                                 type="button"
+                                 data-bs-target="#bmwCarousel"
+                                 data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+
+                
 
         <!-- Services -->
         <div id="services" class="container text-center py-5">
